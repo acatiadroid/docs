@@ -290,10 +290,10 @@ Example: "?reddit ihadastroke"
 
 ### Credits
 
-+ acatia#0001 - Project Lead & bot developer
-+ Cosmic#0022 - Bot artwork & more
-+ tobiO0310#0001 - Documentation & more
-+ All moderators
-+ All supporters
+acatia#0001 - Project Lead & bot developer
+Cosmic#0022 - Bot artwork & more
+tobiO0310#0001 - Documentation & more
+All moderators
+All supporters
 
 Docs last updated: 6th feb, 2021
