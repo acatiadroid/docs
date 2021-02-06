@@ -214,7 +214,7 @@ Usage: "?embed"
 
 ### Role Management
 
-**These commands require a modrole or "manage_roles" permission.
+**These commands require a modrole or "manage_roles" permission.**
 ```
 addrole
 Adds a role to the user specified.
@@ -251,12 +251,14 @@ Gets some informaton about the specified user or you
 Commands: "whois"
 Usage: "?whois [member]"
 Example: "?whois"
-
+```
+```
 serverinfo
 Shows some server information
 Commands: "serverinfo", "si"
 Usage: "?serverinfo"
-
+```
+```
 ping
 Shows some the bots ping, for the websocket and rest latency.
 Commands: "ping"
