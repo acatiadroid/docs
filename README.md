@@ -1,5 +1,7 @@
 ## Welcome to ISgood Documentation
 
+https://acatiadroid.github.io/docs/
+
 This site is for help with the Discord bot ISgood.
 
 This documentation uses certain formatting to represent certain information, as shown below:
@@ -21,6 +23,8 @@ and
 [Support server](https://discord.gg/p5bURjs)
 
 [Invite the bot](https://discord.com/oauth2/authorize?client_id=720785136425369652&permissions=8&scope=bot)
+
+[Documentation (this page)](https://acatiadroid.github.io/docs/)
 
 [Top.gg page](https://top.gg/bot/720785136425369652) (recommended)
 
