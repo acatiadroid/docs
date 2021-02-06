@@ -1,4 +1,4 @@
-## Welcome to ISgood Documentation
+## ISgood Docs
 
 https://acatiadroid.github.io/docs/
 
