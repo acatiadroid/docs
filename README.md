@@ -14,9 +14,9 @@ and
 ```
 | means a command alias. I.E [command|subcommand]
 ```
-__**Do not literally type out the \[ ] or < > or | when running the command.**__
+**Do not literally type out the \[ ] or < > or | when running the command.**
 
-###Useful links
+### Useful links
 
 [Support server](https://discord.gg/p5bURjs)
 
