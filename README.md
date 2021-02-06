@@ -55,7 +55,7 @@ Usage: "?kick <user> [reason]"
 Example: "?kick @MEE6 Bye"
 ```
 ```
-Nick
+nick
 Changes the nickname of a user.
 Requires MANAGE_NICKNAMES permission.
 Commands: "nick"
@@ -63,7 +63,7 @@ Usage: "?nick <user> <new-nick>"
 Example: "?nick @acatia Developer"
 ```
 ```
-Slowmode
+slowmode
 Changes the slowmode of whichever channel it's used in.
 Requires MANAGE_MESSAGES permission, for that channel, where it's used.
 Commands: "slowmode", "sm"
@@ -71,7 +71,7 @@ Usage: "?slowmode <amount>"
 Example: "?slowmode 5"
 ```
 ```
-Purge
+purge
 Purges messages in whichever channel it's used in.
 Requires MANAGE_MESSAGES permission, for that channel, where it's used.
 Commands: "purge"
@@ -79,7 +79,7 @@ Usage: "?purge <amount>"
 Example: "?purge 10"
 ```
 ```
-Unban
+unban
 Unbans a user
 Requires BAN_MEMBERS permission.
 Commands: "unban", "ub"
@@ -87,7 +87,7 @@ Usage: "?unban <username#0000>"
 Example: "?unban Cosmic#0022"
 ```
 ```
-Mute
+mute
 Changes the nickname of a user.
 Requires KICK_MEMBERS permission.
 Commands: "mute", "m"
@@ -95,7 +95,7 @@ Usage: "?mute <member> [length] [reason]"
 Example: "?mute @Toby 2h Bad boy."
 ```
 ```
-Unmute
+unmute
 Unmutes a Member.
 Requires KICK_MEMBERS permission.
 Commands: "unmute", "um"
@@ -114,14 +114,14 @@ Usage: "?setprefix <new-prefix>"
 Example: "?setprefix !"
 ```
 ```
-suggestion channel
+suggestionchannel
 Sets the suggestion Channel (also enables suggestions)
 Commands: "suggestchannel", "suggestionchannel"
 Usage: "?suggestionchannel <channel>"
 Example: "?suggestionchannel #suggestions"
 ```
 ```
-disable suggestions
+disablesuggest
 Disables suggestions
 Commands: "disablesuggest"
 Usage: "?disablesuggest"
