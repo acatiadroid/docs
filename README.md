@@ -46,6 +46,7 @@ Commands: "ban", "b"
 Usage: ".ban <user> [reason]
 Example: ".ban @Dyno Bye"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 Kick
 Kicks a member.
@@ -54,6 +55,7 @@ Commands: "kick", "k"
 Usage: ".kick <user> [reason]"
 Example: ".kick @MEE6 Bye"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 nick
 Changes the nickname of a user.
@@ -70,6 +72,7 @@ Commands: "slowmode", "sm"
 Usage: ".slowmode <amount>"
 Example: ".slowmode 5"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 purge
 Purges messages in whichever channel it's used in.
@@ -78,6 +81,7 @@ Commands: "purge"
 Usage: ".purge <amount>"
 Example: ".purge 10"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 unban
 Unbans a user
@@ -86,6 +90,7 @@ Commands: "unban", "ub"
 Usage: ".unban <username#0000>"
 Example: ".unban Cosmic#0022"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 mute
 Changes the nickname of a user.
@@ -94,6 +99,7 @@ Commands: "mute", "m"
 Usage: ".mute <member> [length] [reason]"
 Example: ".mute @Toby 2h Bad boy."
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 unmute
 Unmutes a Member.
@@ -113,6 +119,7 @@ Commands: "setprefix"
 Usage: ".setprefix <new-prefix>"
 Example: ".setprefix !"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 suggestionchannel
 Sets the suggestion Channel (also enables suggestions)
@@ -120,6 +127,7 @@ Commands: "suggestchannel", "suggestionchannel"
 Usage: ".suggestionchannel <channel>"
 Example: ".suggestionchannel #suggestions"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 disablesuggest
 Disables suggestions
@@ -132,12 +140,14 @@ Enables the reddit command
 Commands: "enablereddit"
 Usage: ".enablereddit"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 disablereddit
 Disables the reddit command
 Commands: "disablereddit"
 Usage: ".disablereddit"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 modrole
 Shows the current- or sets a- modrole.
@@ -145,12 +155,14 @@ Commands: "modrole"
 Usage: ".modrole [role]"
 Example: ".modrole @Moderators"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 modrole_delete
 Deletes the current modrole
 Commands: "modrole_delete", "modrole_disable"
 Usage: ".modrole_delete"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 muterole
 Shows the current mute role, creates a mute role or sets a mute role.
@@ -168,19 +180,23 @@ Coin flip, what did ya expect? (returns heads or tails)
 Commands: "coinflip"
 Usage: ".coinflip"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 invite
 Gives you the bot's invite!
 Commands: "invite"
 Usage: ".invite"
 Example: ".invite"
-
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
 poll
 Creates a poll with thumbs up and down reactions.
 Commands: "poll"
 Usage: ".poll <content>"
 Example: ".poll Pizza is good, right?!"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 emojify
 Creates an emoji out of your attachment.
@@ -189,6 +205,7 @@ Commands: "emojify", "addemote"
 Usage: ".emojify <name> <attachment>"
 Example: ".emojify name <attachment>" replace <attachment> with an attachment to the message.
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 patreon
 Links ISgood's patreon
@@ -204,6 +221,7 @@ Requires MANAGE_MESSAGS permission, in that channel of whichever it's used in.
 Commands: "embed"
 Usage: ".embed"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 editembed
 Edits a pre-existing embed sent by the bot. (interactive guide)
@@ -222,6 +240,7 @@ Commands: "addrole", "role"
 Usage: ".addrole <member> <role>"
 Example: ".addrole @acatia#0001 @Moderator"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 removerole
 Removes a role for the user specified.
@@ -229,6 +248,7 @@ Commands: "removerole", "rrole"
 Usage: ".removerole <member> <role>"
 Example: ".remove role @acatia#0001 @Moderator"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 autorole
 Gives specified role(s) upon joining. (currently only one role is able to be set)
@@ -245,6 +265,7 @@ Commands: "avatar", "av"
 Usage: ".avatar [member]"
 Example: ".av @acatia"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 whois
 Gets some informaton about the specified user or you
@@ -252,12 +273,14 @@ Commands: "whois"
 Usage: ".whois [member]"
 Example: ".whois"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 serverinfo
 Shows some server information
 Commands: "serverinfo", "si"
 Usage: ".serverinfo"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 ping
 Shows some the bots ping, for the websocket and rest latency.
@@ -276,7 +299,7 @@ Usage: ".suggest <content>"
 Example: ".suggest Make us able to follow #announcements!"
 ```
 
-# Reddit
+### Reddit
 
 **Retrieves a random post from a subreddit**
 ```
