@@ -292,7 +292,7 @@ Example: "?reddit ihadastroke"
 
 + acatia#0001 - Project Lead & bot developer
 + Cosmic#0022 - Bot artwork & more
-+ Toby the Wolf || tobiO0310#0001 - Documentation & more
++ tobiO0310#0001 - Documentation & more
 + All moderators
 + All supporters
 
