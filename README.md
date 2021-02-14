@@ -48,12 +48,30 @@ This version of the documentation is only temporary and will be completely updat
 **All commands require a certain permission or a modrole to use.**
 
 ```
-Ban
+ban
 Bans a member.
 Requires BAN_MEMBERS permission.
 Commands: "ban", "b"
-Usage: ".ban <user> [reason]
+Usage: ".ban <user> [delete_days] [reason]
 Example: ".ban @Dyno Bye"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+massban
+Bans multiple members out of the server.
+Requires BAN_MEMBERS permission.
+Commands: "massban", "mb"
+Usage: ".massban|mb <@user> <@user>... [delete_days] [reason]
+Example: ".massban @Dyno @MEE6 Bad"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+masskick
+Kicks multiple members out of the server.
+Requires KICK_MEMBERS permission.
+Commands: "masskick", "mk"
+Usage: ".masskick|mk <@user> <@user>... [reason]
+Example: ".massban @Dyno @MEE6 Bad"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
@@ -118,6 +136,24 @@ Commands: "unmute", "um"
 Usage: ".unmute <member>"
 Example: ".unmute @Toby"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+lock
+Locks down a channel.
+Requires MANAGE_CHANNELS permissions
+Commands: "lock"
+Usage: ".lock [channel]
+Example ".lock #general Raid", ".lock Spam"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+lockdown
+Locks down the server
+Requires MANAGE_SERVER permissions
+Commands: "lockdown"
+Usage: ".lockdown [reason]"
+Example ".lockdown Mass raid"
+```
 
 ### Configuration
 
@@ -128,6 +164,14 @@ Sets the prefix
 Commands: "setprefix"
 Usage: ".setprefix <new-prefix>"
 Example: ".setprefix !"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+lockannounce
+Sets a channel that a message will get sent to when the "lockdown" command is used.
+Commands: "lockannounce"
+Usage: ".lockannounce <chnl>"
+Example: ".lockannounce #general"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
