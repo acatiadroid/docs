@@ -75,7 +75,7 @@ Example: ".massban @Dyno @MEE6 Bad"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
-Kick
+kick
 Kicks a member.
 Requires KICK_MEMBERS permission.
 Commands: "kick", "k"
@@ -121,11 +121,20 @@ Example: ".unban Cosmic#0022"
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 mute
-Changes the nickname of a user.
+Perm-mutes a member.
 Requires KICK_MEMBERS permission.
 Commands: "mute", "m"
+Usage: ".mute <member> [reason]"
+Example: ".mute @Toby Spam."
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+mute
+Changes the nickname of a user.
+Requires KICK_MEMBERS permission.
+Commands: "tempmute", "tm", "timemute"
 Usage: ".mute <member> [length] [reason]"
-Example: ".mute @Toby 2h Bad boy."
+Example: ".mute @Toby 3h Read the rules."
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
@@ -366,6 +375,203 @@ Usage: ".reddit <sub-reddit>"
 Example: ".reddit ihadastroke"
 ```
 
+### Starboard
+
+**Commands for configuring the starboard**
+
+WARNING: Starboard is currently slightly buggy. Please do the following:
+- set the starboard channel
+- set the emoji
+- set the threshold
+- toggle the starboard
+- set the channel again
+```
+starboard channel
+Sets a starboard channel
+Requires MANAGE_SERVER permission.
+Commands: "starboard channel", "sb channel"
+Usage: ".starboard channel #starboard"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+starboard toggle
+Enables or disables the starboard
+Requires MANAGE_SERVER permission.
+Commands: "starboard toggle", "sb toggle"
+Usage: ".starboard toggle"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+starboard emoji
+Sets the starboard emoji
+Requires MANAGE_SERVER permission.
+Commands: "starboard emoji", "sb emoji"
+Usage: ".starboard emoji ⭐"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+starboard threshold
+Sets the amount of reactions required to get posted to the starboard. (note that self starring doesn't work)
+Requires MANAGE_SERVER permission.
+Commands: "starboard threshold", "sb threshold", "starboard thresh", "starboard limit"
+Usage: ".starboard thresh 3"
+```
+ 
+### Music
+
+```
+join
+Joins a voice channel.
+
+leave
+Clears the queue and leaves the voice channel.
+
+loop
+Loops the currently playing song.
+
+now
+Displays the currently playing song.
+
+pause
+Pauses the currently playing song.
+
+play <search>
+Plays a song.
+
+queue [page=1]
+Shows the player's queue.
+
+remove <index>
+Removes a song from the queue at a given index.
+
+shuffle
+Shuffles the queue.
+skip
+Vote to skip a song. The requester can automatically skip.
+
+summon [channel]
+Summons the bot to a voice channel.
+```
+
+### Reaction roles
+
+**Let members assign their own roles by clicking reactions!**
+
+Commands below have the name `reactionroles`, but for the sake of readability, they will use the subcommand `rr`.
+
+NOTE: You must set the reaction roles channel before anything else or it WILL NOT work.
+
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+rr channel
+Sets the reaction roles channel.
+Requires MANAGE_SERVER permission.
+Commands: "rr channel <channel>"
+Usage: ".rr channel #get-roles"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+rr toggle
+Toggles reaction roles on/off.
+Requires MANAGE_SERVER permission.
+Commands: "rr toggle"
+Usage: ".rr toggle"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+rr remove
+Removes a reaction role by selecting the emoji.
+Requires MANAGE_SERVER permission.
+Commands: "rr remove <emoji>"
+Usage: ".rr remove 🟢"
+```
+
+### Tickets
+
+Allow members to have private interactions with support team.
+
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+ticket
+Creates a ticket channel with an optional reason
+Commands: "ticket [reason]"
+Usage: ".ticket I need help"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+ticket addaccess
+Adds a role that are allowed to interact with tickets.
+Requires MANAGE_SERVER permission.
+Commands: "ticket addaccess <role>"
+Usage: ".ticket addaccess @Support"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+ticket close
+Closes a ticket channel. Will not work on non-ticket channels.
+Requires you to be the ticket creator, or have an access role, or a modrole.
+Commands: "ticket close"
+Usage: ".ticket close"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+ticket removeaccess
+Removes an access role.
+Requires MANAGE_SERVER permission.
+Commands: "ticket removeaccess <role>"
+Usage: ".ticket removeaccess @Helper"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+ticket setup
+Sets up the ticket channel. This command must be done beforehand.
+Requires MANAGE_SERVER permission.
+Commands: "ticket setup"
+Usage: ".ticket setup"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+ticket disable
+Disables tickets. To re-enable, you must do the "ticket setup" command.
+Requires MANAGE_SERVER permission.
+Commands: "ticket disable"
+Usage: ".ticket disable"
+```
+
+### Purge
+
+```
+purge all [search=100]
+Removes all messages.
+
+purge bots [search=100] [prefix]
+Removes a bot user's messages and messages with their optional prefix.
+
+purge embeds [search=100]
+Removes messages that have embeds in them.
+
+purge emojis [search=100]
+Removes all messages containing custom emoji.
+
+purge files [search=100]
+Removes messages that have attachments in them.
+
+purge images [search=100]
+Removes messages that have embeds or attachments.
+
+purge mentions [search=100]
+Removes messages that have mentions in them.
+
+purge reactions [search=100]
+Removes all reactions from messages that have them.
+
+purge user <member> [search=100]
+Removes all messages by the member.
+
+purge users [prefix] [search=100]
+Removes only user messages.
+```
+
 ### Credits
 
 acatia#0001 - Project Lead & bot developer
@@ -374,4 +580,4 @@ tobiO0310#0001 - Documentation & more
 All moderators
 All supporters
 
-Docs last updated: 6th feb, 2021
+Docs last updated: 25th feb, 2021 
