@@ -129,7 +129,7 @@ Example: ".mute @Toby Spam."
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
-mute
+tempmute
 Changes the nickname of a user.
 Requires KICK_MEMBERS permission.
 Commands: "tempmute", "tm", "timemute"
