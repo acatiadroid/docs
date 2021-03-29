@@ -278,6 +278,8 @@ Usage: ".patreon"
 ```
 
 ### Custom Embeds
+
+**Creates custom embeds that can have anything you want in.**
 ```
 embed
 Creates a custom embed. (interactive guide)
@@ -315,12 +317,45 @@ Example: ".remove role @acatia#0001 @Moderator"
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
 autorole
-Gives specified role(s) upon joining. (currently only one role is able to be set)
-Either shows, sets or clears the current auto role(s)!
-Commands: "autorole", "autorole set", "autorole clear"
-Usage: ".autorole set <role>"
-Example: ".autorole set @Unverified"
+Gives specified role(s) upon joining.
+Commands: "autorole", "ar"
+Usage: ".autorole"
+Example: ".autorole"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+autorole add 
+Adds a role to the autorole.
+> Note: non-premium servers can have 6 autoroles, whereas premium servers can have 15.
+Commands: "autorole remove"
+Usage: ".autorole set <role>"
+Example: ".autorole add @Unverified"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+autorole remove 
+Removes a role from the autorole.
+Commands: "autorole remove"
+Usage: ".autorole remove <role>"
+Example: ".autorole remove @Unverified"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+autorole ignorebots/unignorebots 
+Ignores/unignores bots from being affected by autorole.
+Commands: "autorole ignorebots", "autorole unignorebots"
+Usage: ".autorole ignorebots", ".autorole unignorebots"
+Example: ".autorole ignorebots", ".autorole unignorebots"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+autorole disable 
+Disables autorole, this will delete ALL data with autorole.
+Commands: "autorole ignorebots", "autorole unignorebots"
+Usage: ".autorole ignorebots", ".autorole unignorebots"
+Example: ".autorole ignorebots", ".autorole unignorebots"
+```
+
 ### Information commands
 ```
 avatar
@@ -350,6 +385,13 @@ ping
 Shows some the bots ping, for the websocket and rest latency.
 Commands: "ping"
 Usage: ".ping"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+covid
+Shows some statistics for covid-19. If [country] is not given, it will show global stats.
+Commands: "covid", "cv", "coronavirus", "corona"
+Usage: ".covid", ".covid uk"
 ```
 
 ### Suggestions
