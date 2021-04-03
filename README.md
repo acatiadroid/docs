@@ -451,42 +451,6 @@ Commands: "starboard threshold", "sb threshold", "starboard thresh", "starboard 
 Usage: ".starboard thresh 3"
 ```
  
-### Music
-
-```
-join
-Joins a voice channel.
-
-leave
-Clears the queue and leaves the voice channel.
-
-loop
-Loops the currently playing song.
-
-now
-Displays the currently playing song.
-
-pause
-Pauses the currently playing song.
-
-play <search>
-Plays a song.
-
-queue [page=1]
-Shows the player's queue.
-
-remove <index>
-Removes a song from the queue at a given index.
-
-shuffle
-Shuffles the queue.
-skip
-Vote to skip a song. The requester can automatically skip.
-
-summon [channel]
-Summons the bot to a voice channel.
-```
-
 ### Reaction roles
 
 **Let members assign their own roles by clicking reactions!**
