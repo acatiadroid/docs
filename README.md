@@ -40,6 +40,7 @@ Snowflakes mean you can reference the same thing in multiple different ways.
 Here are some of the snowflakes that are frequently used on ISgood:
 
 `<member>` snowflakes:
+
 • their ID - "600056626749112322"
 
 • their @mention - "@acatia"
@@ -47,6 +48,7 @@ Here are some of the snowflakes that are frequently used on ISgood:
 • their name - "acatia"
 
 `<channel>` snowflakes:
+
 • channel ID: "779337619192414218"
 
 • channel #mention - "#bot-updates"
@@ -54,6 +56,7 @@ Here are some of the snowflakes that are frequently used on ISgood:
 • channel name - "bot-updates"
 
 `<role>` snowflakes:
+
 • role ID - "723237557193670749"
 
 • role @mention - "@Developer"
