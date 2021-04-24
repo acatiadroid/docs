@@ -19,7 +19,7 @@ and
 ```
 **Do not literally type out the \[ ] or < > or | when running the command.**
 
-### Useful links
+### Useful Info & links
 
 [Support server](https://discord.gg/p5bURjs)
 
@@ -35,6 +35,27 @@ To find a specific command, hit `Ctrl + F` and search your keyword.
 This version of the documentation is only temporary and will be completely updated soon in HTML.
 ```
 
+### Snowflakes
+Snowflakes mean you can reference the same thing in multiple different ways.
+Here are some of the snowflakes that are frequently used on ISgood:
+
+`<member>` snowflakes:
+> their ID - "600056626749112322"
+> their @mention - "@acatia"
+> their name - "acatia"
+
+`<channel>` snowflakes:
+> channel ID: "779337619192414218"
+> channel #mention - "#bot-updates"
+> channel name - "bot-updates"
+
+`<role>` snowflakes:
+> role ID - "723237557193670749"
+> role @mention - "@Developer"
+> role name - "Developer"
+
+Using the wrong snowflake will result in a "Bad Argument" error.
+
 ### Moderation commands
 
 **All commands require a certain permission or a modrole to use.**
@@ -44,7 +65,7 @@ ban
 Bans a member.
 Requires BAN_MEMBERS permission.
 Commands: "ban", "b"
-Usage: ".ban <user> [delete_days] [reason]
+Usage: ".ban <user> [delete_days] [reason]"
 Example: ".ban @Dyno Bye"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
@@ -53,8 +74,26 @@ massban
 Bans multiple members out of the server.
 Requires BAN_MEMBERS permission.
 Commands: "massban", "mb"
-Usage: ".massban|mb <@user> <@user>... [delete_days] [reason]
+Usage: ".massban|mb <@user> <@user>... [delete_days] [reason]"
 Example: ".massban @Dyno @MEE6 Bad"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+softban
+Bans a member from the server then immidiately unbans them. This is useful as a kick command, but it also purges all of the users messages.
+Requires BAN_MEMBERS permission.
+Commands: "softban", "sb"
+Usage: ".softban <member> <reason>"
+Example: ".softban @acatia Be gone"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+forceban
+Bans a member from the server regardless of whether they are in the server or not. NOTE: This only takes User ID and will will not DM the user.
+Requires BAN_MEMBERS permission.
+Commands: "forceban", "fb"
+Usage: ".fb <user> <reason>"
+Example: ".softban 600056626749112322 rude"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
@@ -139,15 +178,6 @@ Example: ".unmute @Toby"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
-lock
-Locks down a channel.
-Requires MANAGE_CHANNELS permissions
-Commands: "lock"
-Usage: ".lock [channel]
-Example ".lock #general Raid", ".lock Spam"
-```
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
 lockdown
 Locks down the server
 Requires MANAGE_SERVER permissions
@@ -155,6 +185,34 @@ Commands: "lockdown"
 Usage: ".lockdown [reason]"
 Example ".lockdown Mass raid"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+warns
+Shows all warnings for a member.
+Requires MANAGE_MESSAGE permissions
+Commands: "warns"
+Usage: ".warns <member>"
+Example ".warns @acatia"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+deletewarn
+Deletes a specific warn for a member.
+Requires MANAGE_MESSAGES permissions
+Commands: "deletewarn", "delwarn"
+Usage: ".delwarn <member> <caseid>"
+Example ".delwarn @acatia 2"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+clearwarn
+Clears all warnings for a member.
+Requires MANAGE_MESSAGES permissions
+Commands: "clearwarn", "clrwarn", "clearwarns"
+Usage: ".clearwarn <member>"
+Example ".clearwarn @acatia"
+```
+
 
 ### Configuration
 
@@ -347,6 +405,32 @@ Commands: "autorole ignorebots", "autorole unignorebots"
 Usage: ".autorole ignorebots", ".autorole unignorebots"
 Example: ".autorole ignorebots", ".autorole unignorebots"
 ```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+ranks 
+Shows all of the whitelisted ranks (roles) which all members are allowed to give themselves.
+Commands: "ranks"
+Usage: ".ranks"
+Example: ".ranks"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+addrank 
+Adds a role to the whitelist which all members are able to give themselves.
+Commands: "addrank"
+Usage: ".addrank <role>"
+Example: ".addrank @Bot Updates"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+deleterank 
+Deletes a rank from the whitelist so members can no longer give themselves the role.
+Commands: "deleterank"
+Usage: ".deleterank <rank>"
+Example: ".deleterank @Giveaways"
+```
+
+
 
 ### Information commands
 ```
@@ -366,10 +450,33 @@ Example: ".whois"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
+charinfo
+Shows some information on a character/symbol.
+Commands: "charinfo"
+Usage: ".charinfo <characters>"
+Example: ".charinfo ABCxyz123"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+botstats
+Gets some informaton about the bot.
+Commands: "botstats"
+Usage: ".botstats"
+Example: ".botstats"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
 serverinfo
 Shows some server information
 Commands: "serverinfo", "si"
 Usage: ".serverinfo"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+urban
+Searches a message from urban dictionary.
+Commands: ".urban <query>"
+Usage: ".urban Discord"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
@@ -392,10 +499,34 @@ These commands will only work if suggestions are enabled. (`suggestchannel` / `d
 
 ```
 suggest
-Commands: "suggest"
-Usage: ".suggest <content>"
-Example: ".suggest Make us able to follow #announcements!"
+Creates a suggestion
+Commands: "suggest", "suggestion"
+Usage: ".suggest Memes channel!"
 ```
+
+```
+accept <messageid> [reason]
+Marks a suggestion as "approved"/"accepted" and notifies the suggestion creator.
+
+consider <messageid> [reason]
+Marks a suggestion as considered and notifies the suggestion creator.
+
+delete <messageid> [reason]
+Deletes a suggestion.
+
+deny <messageid> [reason]
+Denies a suggestion and notifies the suggestion creator.
+
+implement <messageid> [reason]
+Marks a suggestion as "implemented" and notifies the suggestion creator.
+
+suggest <suggestion>
+Creates a suggestion.
+
+suggestionchannel <channel>
+Sets the channel that suggestions will get sent to. Note: if you set a different channel, this will stop all of the previous suggestions from working!
+```
+
 
 ### Reddit
 
@@ -449,39 +580,6 @@ Sets the amount of reactions required to get posted to the starboard. (note that
 Requires MANAGE_SERVER permission.
 Commands: "starboard threshold", "sb threshold", "starboard thresh", "starboard limit"
 Usage: ".starboard thresh 3"
-```
- 
-### Reaction roles
-
-**Let members assign their own roles by clicking reactions!**
-
-Commands below have the name `reactionroles`, but for the sake of readability, they will use the subcommand `rr`.
-
-NOTE: You must set the reaction roles channel before anything else or it WILL NOT work.
-
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
-rr channel
-Sets the reaction roles channel.
-Requires MANAGE_SERVER permission.
-Commands: "rr channel <channel>"
-Usage: ".rr channel #get-roles"
-```
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
-rr toggle
-Toggles reaction roles on/off.
-Requires MANAGE_SERVER permission.
-Commands: "rr toggle"
-Usage: ".rr toggle"
-```
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
-rr remove
-Removes a reaction role by selecting the emoji.
-Requires MANAGE_SERVER permission.
-Commands: "rr remove <emoji>"
-Usage: ".rr remove 🟢"
 ```
 
 ### Tickets
@@ -570,6 +668,29 @@ purge users [prefix] [search=100]
 Removes only user messages.
 ```
 
+### Logging
+
+Never miss a thing in your server with logging! This sends a message to a log channel every time something happens!
+```
+log all <channel>
+Enables all logging actions to a channel.
+ 
+log disable
+Disables all logging events, and unsets the logging channels. Please note that this command also unignores the message logging channel.
+
+log ignore <channel>
+This will ignore channels from logging, so when a message event is performed, it will not get logged.
+
+log joinleave <channel>
+Logs when a member joins or leaves the server.
+
+log message <channel>
+Sends message events to a channel. Message events: message edit, message deletion.
+
+log server <channel>
+Logs actions that happen directly to the server such as channel creations, deletions etc.
+```
+
 ### Credits
 
 acatia#0001 - Project Lead & bot developer
@@ -578,4 +699,4 @@ tobiO0310#0001 - Documentation & more
 All moderators
 All supporters
 
-Docs last updated: 25th feb, 2021 
+Docs last updated: 24th April, 2021 
