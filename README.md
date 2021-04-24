@@ -41,17 +41,23 @@ Here are some of the snowflakes that are frequently used on ISgood:
 
 `<member>` snowflakes:
 • their ID - "600056626749112322"
+
 • their @mention - "@acatia"
+
 • their name - "acatia"
 
 `<channel>` snowflakes:
 • channel ID: "779337619192414218"
+
 • channel #mention - "#bot-updates"
+
 • channel name - "bot-updates"
 
 `<role>` snowflakes:
 • role ID - "723237557193670749"
+
 • role @mention - "@Developer"
+
 • role name - "Developer"
 
 Using the wrong snowflake will result in a "Bad Argument" error.
