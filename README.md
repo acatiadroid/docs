@@ -47,6 +47,8 @@ Here are some of the snowflakes that are frequently used on ISgood:
 
 • their name - "acatia"
 
+• their name and discriminator - "acatia#0001"
+
 `<channel>` snowflakes:
 
 • channel ID: "779337619192414218"
