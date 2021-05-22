@@ -700,6 +700,9 @@ Sends message events to a channel. Message events: message edit, message deletio
 
 log server <channel>
 Logs actions that happen directly to the server such as channel creations, deletions etc.
+
+log member <channel>
+Sets a logging channel that will log events such as member nickname update, role adding/removal and more.
 ```
 
 ### Credits
@@ -710,4 +713,4 @@ tobiO0310#0001 - Documentation & more
 All moderators
 All supporters
 
-Docs last updated: 24th April, 2021 
+Docs last updated: 22nd May, 2021
