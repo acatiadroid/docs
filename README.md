@@ -189,15 +189,6 @@ Example: ".unmute @Toby"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
-lockdown
-Locks down the server
-Requires MANAGE_SERVER permissions
-Commands: "lockdown"
-Usage: ".lockdown [reason]"
-Example ".lockdown Mass raid"
-```
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
 warns
 Shows all warnings for a member.
 Requires MANAGE_MESSAGE permissions
@@ -223,7 +214,15 @@ Commands: "clearwarn", "clrwarn", "clearwarns"
 Usage: ".clearwarn <member>"
 Example ".clearwarn @acatia"
 ```
-
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+cleanup
+Deletes a set amount of commands ran by the bot by deleting the bots message and the invoking message. Useful for removing bot spam. 
+Requires MANAGE_MESSAGES permissions
+Commands: "cleanup"
+Usage: ".cleanup <limit (defaults 50)>"
+Example: ".cleanup 25"
+```
 
 ### Configuration
 
@@ -260,20 +259,6 @@ Usage: ".disablesuggest"
 ```
 ⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
 ```
-enablereddit
-Enables the reddit command
-Commands: "enablereddit"
-Usage: ".enablereddit"
-```
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
-disablereddit
-Disables the reddit command
-Commands: "disablereddit"
-Usage: ".disablereddit"
-```
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
 modrole
 Shows the current- or sets a- modrole.
 Commands: "modrole"
@@ -294,6 +279,14 @@ Shows the current mute role, creates a mute role or sets a mute role.
 Commands: "muterole", "muterole set", "muterole create"
 Usage: ".muterole", "muterole set <role>", "muterole create"
 Example: ".muterole set @Muted"
+```
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+```
+compact
+Toggles between making moderation, mod-logging and logging messages plain-text instead of embedded for space saving.
+Commands: "compact"
+Usage: ".compact"
+Example: ".compact"
 ```
 
 ### Miscellaneous
@@ -496,13 +489,6 @@ Shows some the bots ping, for the websocket and rest latency.
 Commands: "ping"
 Usage: ".ping"
 ```
-⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
-```
-covid
-Shows some statistics for covid-19. If [country] is not given, it will show global stats.
-Commands: "covid", "cv", "coronavirus", "corona"
-Usage: ".covid", ".covid uk"
-```
 
 ### Suggestions
 
@@ -538,20 +524,9 @@ suggestionchannel <channel>
 Sets the channel that suggestions will get sent to. Note: if you set a different channel, this will stop all of the previous suggestions from working!
 ```
 
-
-### Reddit
-
-**Retrieves a random post from a subreddit**
-```
-reddit
-Gets a random post from the specified sub-reddit.
-REQUIRES ".enabledreddit" TO BE RAN, without ".disablereddit" have been ran after, AND NEEDS TO BE IN A NSFW CHANNEL!
-Commands: "reddit"
-Usage: ".reddit <sub-reddit>"
-Example: ".reddit ihadastroke"
-```
-
 ### Starboard
+
+> ⚠️**Starboard is currently disabled for all servers due to a bug. Will be added back in rewrite.**
 
 **Commands for configuring the starboard**
 
@@ -713,4 +688,4 @@ tobiO0310#0001 - Documentation & more
 All moderators
 All supporters
 
-Docs last updated: 22nd May, 2021
+Docs last updated: 28th July, 2021
