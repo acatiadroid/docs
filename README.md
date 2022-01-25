@@ -1,7 +1,8 @@
+<h1 align="center">As of the 2nd November 2021, the bot has been discontinued.</h1>
+
 ## ISgood Docs
 
 https://acatiadroid.github.io/docs/
-
 
 This site is for help with the Discord bot ISgood.
 
